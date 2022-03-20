@@ -1,0 +1,11 @@
+[package]
+name = "og-parser"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+webpage = "1.4.0"
+comfy-table = "5.0.1"
+clap = { version = "3.1.6", features = ["derive"] }
